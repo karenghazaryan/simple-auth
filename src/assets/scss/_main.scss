@@ -147,3 +147,14 @@ header {
     }
   }
 }
+
+@media screen and (max-width: 742px) {
+  .section {
+    .form {
+      form {
+        width: 300px;
+      }
+    }
+  }
+}
+
