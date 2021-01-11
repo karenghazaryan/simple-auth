@@ -1,4 +1,6 @@
-# simple auth
+# Simple auth
+
+Demo [here](https://shop-92f06.web.app/)
 
 ## Project setup
 ```
