@@ -1,0 +1,149 @@
+
+body {
+  margin: 0;
+  color: #34495E;
+  background: #E6ECF0;
+}
+
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+a {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  margin: 0;
+  cursor: pointer;
+}
+
+header {
+  position: relative;
+  background: white;
+  height: 49px;
+  box-shadow: 0 0 5px 0 #34495e69;
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 50px;
+    justify-content: center;
+    height: 100%;
+
+    .logo-container {
+      flex: 1;
+      img {
+        height: 40px;
+        border-radius: 80px;
+      }
+    }
+
+    .logout {
+      color: #006ece;
+      &:hover {
+        color: #006ececc
+      }
+    }
+  }
+}
+
+.profile {
+  .profile-container {
+    padding: 20px 50px;
+
+    img {
+      height: 50px;
+    }
+  }
+}
+
+.section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .form {
+    padding: 32px;
+    background-color: white;
+    border-radius: 8px;
+
+    form {
+      width: 450px;
+      margin: 0 auto;
+      label {
+        display: block;
+        font-size: 16px;
+        margin-bottom: 0.5rem;
+      }
+
+      .form-group {
+        padding-bottom: 16px;
+      }
+
+      input {
+        display: block;
+        width: 100%;
+        font-size: 16px;
+        padding: 10px;
+        outline: 0;
+        border: 1px solid #0995f9;
+        border-radius: 8px;
+      }
+
+      .error-msg {
+        text-align: center;
+        color: #ff0000;
+        font-size: 12px;
+        margin-top: 5px;
+      }
+    }
+
+    h1 {
+      margin-bottom: 2rem;
+    }
+  }
+}
+
+.button {
+  background: #30A0EE;
+  border: 0;
+  outline: 0;
+  color: #fff;
+  padding: 10px;
+  min-width: 150px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+
+  &:hover {
+    background: #30a0eec7;
+  }
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+
+  button {
+    margin-bottom: 16px;
+  }
+
+  .go-to {
+    text-align: right;
+    color: #0b698e;
+
+    &:hover {
+      color: #0b698ec4;
+    }
+  }
+}
