@@ -4,7 +4,7 @@ function validateEmail(email) {
 }
 
 function validatePass(pass) {
-     return 6 < pass.length && pass.length < 40;
+     return 6 <= pass.length && pass.length <= 40;
 }
 
 function validateName(name) {
